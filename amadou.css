@@ -234,6 +234,7 @@ nav {
 		left: 15%;
 		transition: all 1s ease-in-out;
 		z-index: -980;
+		animation: cloudanim2 9s infinite 0s linear;
   }
 
   #nuage-2 {
@@ -242,6 +243,16 @@ nav {
 	right: 15%;
 	transition: all 1s ease-in-out;
 	z-index: -980;
+	animation: cloudanim 9s infinite 0s linear;
+  }
+
+  @media (min-width: 768px) {
+	#nuage-2 {
+		z-index: 980;
+	}
+	#nuage {
+		z-index: 980;
+	}
   }
 
   #container4 {
@@ -353,4 +364,56 @@ footer ul a {
 
 footer ul a:hover{
  color: rgb(0, 179, 153);
+}
+
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(0) translateY(-15);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+        }
+}
+
+.ashitty{
+    animation: yourAnimation 1s forwards 0s ease-in;
+}
+
+@keyframes cloudanim{
+    0%{
+        transform: rotate(0) translateX(30px);
+        }
+    25%{
+        transform: rotate(0) translateX(0);
+        }
+    50%{
+        transform: rotate(0) translateX(-30px);
+        }
+    75%{
+        transform: rotate(0) translateX(-0);
+        }
+    100%{
+        transform: rotate(0) translateX(30px);
+        }
+}
+
+
+@keyframes cloudanim2{
+    0%{
+        transform: rotate(0) translateX(-30px);
+        }
+    25%{
+        transform: rotate(0) translateX(0);
+        }
+    50%{
+        transform: rotate(0) translateX(30px);
+        }
+    75%{
+        transform: rotate(0) translateX(0);
+        }
+    100%{
+        transform: rotate(0) translateX(-30px);
+        }
 }
