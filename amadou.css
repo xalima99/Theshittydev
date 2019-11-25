@@ -1,0 +1,356 @@
+body {
+	background-color: #e0ebe8;
+	color: rgb(0, 179, 153);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.42857143;
+}
+
+#prez p{
+	width: 460px;
+	height: 90px;
+	margin: 0 auto;
+	display: block;
+	font-weight: 300;
+	text-align: center;
+}
+html, body {
+	overflow-x: hidden;
+}
+
+#maincontainer {
+	background-color: white;
+}
+
+nav {
+	top :0;
+	font-size: 1.3rem;
+}
+
+.header {
+	height: 120px;
+}
+.
+
+#Navco {
+	font-size: 1.5rem;
+	font-weight:100 ;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 179, 153)
+}
+
+.navbar-nav .nav-link:hover{
+    color: rgb(31, 103, 90)
+}
+
+#am {
+	color: rgb(0, 179, 153);
+	font-family: 'Mr Dafoe', cursive;
+}
+
+.fa-bars{
+    color: rgb(31, 103, 90)
+}
+
+.fa-bars:hover{
+    color: rgb(0, 179, 153);
+}
+
+.container-fluid .container {
+	width: 70%;
+}
+
+.fa-cloudversify{
+	color:white;
+}
+
+#container3 {
+	background-color: white;
+}
+
+#prez {
+	color: rgb(84, 84, 84);
+	width: 70%;
+	margin: 0 auto;
+}
+
+#design {
+	/* color: rgb(0, 179, 153);
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	margin-top: 1.5rem; */
+}
+
+#simple {
+	color: rgb(84, 84, 84);
+	margin: 0 auto;
+	display: block;
+}
+
+.hr1 {
+	height: 8px;
+	border-width: 0 0 8px;
+	border-style: solid;
+	border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="#{$color}" cx="1" cy="0.5" r="0.5"/></svg>') 0 0 100% repeat;
+	 width: 120px;
+	 opacity: 0.1;
+  }
+  @keyframes bubblinger-vert-down {
+	0% {
+		background-position: 0 0;
+	}
+	5% {
+		background-position: 0 77px;
+	}
+	35% {
+		background-position: 0 77px;
+	}
+	40% {
+		background-position: 0 154px;
+	}
+	68% {
+		background-position: 0 154px;
+	}
+	73% {
+		background-position: 0 231px;
+	}
+	100% {
+		background-position: 0 231px;
+	}
+}
+
+@keyframes bubblinger-vert {
+	0% {
+		background-position: 0 0;
+	}
+	5% {
+		background-position: 0 77px;
+	}
+	35% {
+		background-position: 0 77px;
+	}
+	40% {
+		background-position: 0 154px;
+	}
+	68% {
+		background-position: 0 154px;
+	}
+	73% {
+		background-position: 0 231px;
+	}
+	100% {
+		background-position: 0 231px;
+	}
+}
+  .body {
+	  z-index: 1980;
+  }
+  .circus {
+	  z-index: 980;
+	position: relative;
+	-webkit-animation-name: bubblinger-vert-down;
+    -moz-animation-name: bubblinger-vert-down;
+    animation-name: bubblinger-vert-down;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    width: 77px;
+    height: 77px;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(1,0,0,1);
+    -moz-animation-duration: 20s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: cubic-bezier(1,0,0,1);
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(1,0,0,1);
+	background-image: url(dev-icons-vert.png);
+}
+
+.circus2 {
+	z-index: 980;
+	position: relative;
+	-webkit-animation-name: bubblinger-vert;
+    -moz-animation-name: bubblinger-vert;
+    animation-name: bubblinger-vert;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    width: 77px;
+    height: 77px;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(1,0,0,1);
+    -moz-animation-duration: 20s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: cubic-bezier(1,0,0,1);
+    animation-duration: 20s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+	background-image: url(design-icons-vert@2x.png);
+}
+
+ .circus::before{
+	 position: absolute;
+	 color: black;
+	 content: '........................';
+	 left: -6rem;
+	 bottom: 2.5rem;
+	height: 13px;
+	width: 100px;
+	 opacity: .1;
+	 z-index: 0;
+  }
+
+  .circus2::after{
+	content: '';
+	position: absolute;
+	color: black;
+	content: '........................';
+	left: 4.5rem;
+	top: 1.5rem;
+   height: 123px;
+   width: 100px;
+	opacity: .1;
+	z-index: 0;
+  }
+
+  #yayay {
+	  position: relative;
+
+  }
+
+  #nuage {
+		position: absolute;
+		bottom : -25%;
+		left: 15%;
+		transition: all 1s ease-in-out;
+		z-index: -980;
+  }
+
+  #nuage-2 {
+	position: absolute;
+	top: 45%;
+	right: 15%;
+	transition: all 1s ease-in-out;
+	z-index: -980;
+  }
+
+  #container4 {
+	  position: relative;
+	  background-color: white;
+  }
+
+  #container4 h1 {
+	  color: rgb(30, 131, 108)
+  }
+
+  @media (min-width: 768px) {
+	#yayay {
+		height: 11rem;
+	}
+}
+
+@media (max-width: 768px) {
+	#nuage {
+		position: absolute;
+		bottom : -25%;
+		left: 0%;
+  }
+  #nuage-2 {
+	  right: 10%;
+  }
+  #prez p {
+	width: auto;
+	height: auto;
+}
+}
+
+#anim {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+#anim2 {
+		display: flex;
+		align-items: center;
+    	justify-content: space-evenly;
+    	margin-left: 2rem;
+}
+
+.simple2 {
+	color: rgb(84, 84, 84);
+	margin: 0 auto;
+	display: block;
+}
+
+#design2 {
+	color: rgb(0, 179, 153);
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	margin-top: 1.5rem;
+}
+
+.design3 {
+	color: rgb(0, 133, 106);
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	margin-top: 1.5rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(0, 133, 106);
+	border-color: rgb(0, 133, 106);
+	color: rgb(0, 179, 153);
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 133, 106);
+	border-color: white;
+	color: rgb(0, 179, 153);
+}
+
+.btn-primary:active{
+	background-color: red;
+}
+
+.foot{
+	background-color: rgb(191, 223, 215);
+	
+}
+
+a {
+    color: rgb(0, 133, 106);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+footer p {
+	text-align: center;
+    font-size: .8em;
+    font-weight: 400;
+    margin: 0 1rem;
+    padding: 2.5em 0 0;
+}
+
+footer ul a {
+	display: flex;
+	margin-top: 2rem;
+}
+
+footer ul a:hover{
+ color: rgb(0, 179, 153);
+}
